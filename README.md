@@ -5,7 +5,7 @@
 
 ## Requirements
 * python >= 3
-* reqests
+* requests
 
 ## How to use
 ```python
@@ -13,7 +13,7 @@ import time
 
 result = dict()
 
-for level in range(6,25 + 1): # 재련 단계 6-25
+for level in range(6, 25 + 1): # 재련 단계 6-25
     for advanced_level in range(0, 30): # 상급 재련 단계 0-29까지
         final_level = level * 5 + advanced_level 
         if final_level in result: # 이미 조사한 템렙이면 생략
